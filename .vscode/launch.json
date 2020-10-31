@@ -6,7 +6,7 @@
       "request": "launch",
       "name": "On Microsoft Sandbox",
       "tenant": "TeclinkLtd.onmicrosoft.com",
-      "startupObjectId": 9650, //9307, //31, //40, //143,//7324, // 7332, //5771, //5769, //9312, //9650, //50101,
+      "startupObjectId": 31, // 9650, //9307, //40, //143,//7324, // 7332, //5771, //5769, //9312, //9650, //50101,
       "startupObjectType": "Page",
       "breakOnError": true,
       "launchBrowser": true,
