@@ -1,6 +1,5 @@
 table 50100 "Radio Show"
 {
-    DataClassification = ToBeClassified;
     Caption = 'Radio Show ';
     LookupPageID = "Radio Show List";
     DrillDownPageId = "Radio Show List";
@@ -39,7 +38,7 @@ table 50100 "Radio Show"
             end;
         }
         field(40; "Run Time"; Duration) { NotBlank = true; }
-        field(50; "Host Code"; Code[20]) { NotBlank = true; }
+        field(50; "Host Code"; Code[20]) { NotBlank = true; }  //Host No.
         field(60; "Host Name"; Text[50]) { }
         field(65; "Host Age"; Integer) { Editable = true; Caption = 'Age of Host'; MinValue = 18; MaxValue = 90; }
         field(100; "Avg Listeners"; Decimal)
